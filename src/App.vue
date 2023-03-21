@@ -1,8 +1,4 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
@@ -14,17 +10,16 @@
   text-align: center;
   color: #2c3e50;
 }
-
-nav {
-  padding: 30px;
+a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #005519;;
+  color: #005519;;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+a:hover {
+  box-shadow: inset 100px 0 0 0 #005519;
+  color: white;
 }
 </style>
