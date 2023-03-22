@@ -1,19 +1,11 @@
 # task-manager
 
-## Project setup
-```
-npm install
-```
+## About the project
+It is a small project that let's users track their tasks
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Technologies and dependencies
+<ul>
+<li>Vue.js to develop frontend application</li>
+<li>Vue Router for routing purpose</li>
+<li>Vuex for state management</li>
+</ul>

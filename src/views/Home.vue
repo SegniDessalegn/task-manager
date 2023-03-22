@@ -1,6 +1,6 @@
 <template lang="eng">
   <div class="container">
-    <h1>MY TASKS</h1>
+    <h1>My Tasks</h1>
     <div class="tasks" v-for="task in $store.state.tasks">
     <div class = "task">
       <div class = "task-name">{{ task.name }}</div>
