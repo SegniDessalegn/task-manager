@@ -9,6 +9,9 @@ export default createStore({
   mutations: {
     UpdateTask(state, task){
       state.tasks.push(task)
+    },
+    deleteTask(state, task){
+      state.tasks = state.tasks.filter(t=>t.name != task.name)
     }
   },
   actions: {
