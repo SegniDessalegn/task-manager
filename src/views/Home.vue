@@ -7,19 +7,24 @@
     <div class = "task-details">{{ task.details}}</div>
   </div>
   </div>
+  <router-link :to = "{name: 'add-Task'}">Add Tasks</router-link>
   </div>
 </template>
 <script>
 export default {};
 </script>
-<style scoped>
+<style>
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+.container a{
+  background-color: rgba(15, 85, 25, 0.26);
+  padding: 10px;
+  width: 150px;
+}
 .tasks {
   background-color: rgba(8, 150, 3, 0.192);
   margin-bottom: 5px;

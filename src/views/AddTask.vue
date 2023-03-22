@@ -1,6 +1,6 @@
 <template lang="eng">
     <h1>
-        <!-- Add Task -->
+        Add Task
     </h1>
     <div class = "form">
     <form @submit.prevent = "handleSubmit">

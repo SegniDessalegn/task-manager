@@ -2,8 +2,7 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    tasks: [{name: "Study", details: "study DSA"},{name: "Study", details: "study DSA"}],
-    forms: {}
+    tasks: [{name: "Study", details: "study DSA"}],
   },
   getters: {
   },
